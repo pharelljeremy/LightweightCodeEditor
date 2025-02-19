@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C3F40AA62D65B1BB00569FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3F40A8D2D65B1B900569FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F40A942D65B1B900569FAF;
+			remoteInfo = LightweightCodeEditor;
+		};
+		C3F40AB02D65B1BB00569FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3F40A8D2D65B1B900569FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F40A942D65B1B900569FAF;
+			remoteInfo = LightweightCodeEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3F40A952D65B1B900569FAF /* LightweightCodeEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightweightCodeEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F40AA52D65B1BB00569FAF /* LightweightCodeEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightweightCodeEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F40AAF2D65B1BB00569FAF /* LightweightCodeEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightweightCodeEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3F40A972D65B1B900569FAF /* LightweightCodeEditor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LightweightCodeEditor;
+			sourceTree = "<group>";
+		};
+		C3F40AA82D65B1BB00569FAF /* LightweightCodeEditorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LightweightCodeEditorTests;
+			sourceTree = "<group>";
+		};
+		C3F40AB22D65B1BB00569FAF /* LightweightCodeEditorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LightweightCodeEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3F40A922D65B1B900569FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F40AA22D65B1BB00569FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F40AAC2D65B1BB00569FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3F40A8C2D65B1B900569FAF = {
+			isa = PBXGroup;
+			children = (
+				C3F40A972D65B1B900569FAF /* LightweightCodeEditor */,
+				C3F40AA82D65B1BB00569FAF /* LightweightCodeEditorTests */,
+				C3F40AB22D65B1BB00569FAF /* LightweightCodeEditorUITests */,
+				C3F40A962D65B1B900569FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3F40A962D65B1B900569FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F40A952D65B1B900569FAF /* LightweightCodeEditor.app */,
+				C3F40AA52D65B1BB00569FAF /* LightweightCodeEditorTests.xctest */,
+				C3F40AAF2D65B1BB00569FAF /* LightweightCodeEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3F40A942D65B1B900569FAF /* LightweightCodeEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F40AB92D65B1BB00569FAF /* Build configuration list for PBXNativeTarget "LightweightCodeEditor" */;
+			buildPhases = (
+				C3F40A912D65B1B900569FAF /* Sources */,
+				C3F40A922D65B1B900569FAF /* Frameworks */,
+				C3F40A932D65B1B900569FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3F40A972D65B1B900569FAF /* LightweightCodeEditor */,
+			);
+			name = LightweightCodeEditor;
+			packageProductDependencies = (
+			);
+			productName = LightweightCodeEditor;
+			productReference = C3F40A952D65B1B900569FAF /* LightweightCodeEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3F40AA42D65B1BB00569FAF /* LightweightCodeEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F40ABC2D65B1BB00569FAF /* Build configuration list for PBXNativeTarget "LightweightCodeEditorTests" */;
+			buildPhases = (
+				C3F40AA12D65B1BB00569FAF /* Sources */,
+				C3F40AA22D65B1BB00569FAF /* Frameworks */,
+				C3F40AA32D65B1BB00569FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3F40AA72D65B1BB00569FAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3F40AA82D65B1BB00569FAF /* LightweightCodeEditorTests */,
+			);
+			name = LightweightCodeEditorTests;
+			packageProductDependencies = (
+			);
+			productName = LightweightCodeEditorTests;
+			productReference = C3F40AA52D65B1BB00569FAF /* LightweightCodeEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3F40AAE2D65B1BB00569FAF /* LightweightCodeEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F40ABF2D65B1BB00569FAF /* Build configuration list for PBXNativeTarget "LightweightCodeEditorUITests" */;
+			buildPhases = (
+				C3F40AAB2D65B1BB00569FAF /* Sources */,
+				C3F40AAC2D65B1BB00569FAF /* Frameworks */,
+				C3F40AAD2D65B1BB00569FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3F40AB12D65B1BB00569FAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3F40AB22D65B1BB00569FAF /* LightweightCodeEditorUITests */,
+			);
+			name = LightweightCodeEditorUITests;
+			packageProductDependencies = (
+			);
+			productName = LightweightCodeEditorUITests;
+			productReference = C3F40AAF2D65B1BB00569FAF /* LightweightCodeEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3F40A8D2D65B1B900569FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C3F40A942D65B1B900569FAF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C3F40AA42D65B1BB00569FAF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C3F40A942D65B1B900569FAF;
+					};
+					C3F40AAE2D65B1BB00569FAF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C3F40A942D65B1B900569FAF;
+					};
+				};
+			};
+			buildConfigurationList = C3F40A902D65B1B900569FAF /* Build configuration list for PBXProject "LightweightCodeEditor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3F40A8C2D65B1B900569FAF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3F40A962D65B1B900569FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3F40A942D65B1B900569FAF /* LightweightCodeEditor */,
+				C3F40AA42D65B1BB00569FAF /* LightweightCodeEditorTests */,
+				C3F40AAE2D65B1BB00569FAF /* LightweightCodeEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3F40A932D65B1B900569FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F40AA32D65B1BB00569FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F40AAD2D65B1BB00569FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F40A912D65B1B900569FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F40AA12D65B1BB00569FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F40AAB2D65B1BB00569FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3F40AA72D65B1BB00569FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F40A942D65B1B900569FAF /* LightweightCodeEditor */;
+			targetProxy = C3F40AA62D65B1BB00569FAF /* PBXContainerItemProxy */;
+		};
+		C3F40AB12D65B1BB00569FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F40A942D65B1B900569FAF /* LightweightCodeEditor */;
+			targetProxy = C3F40AB02D65B1BB00569FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3F40AB72D65B1BB00569FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3F40AB82D65B1BB00569FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F40ABA2D65B1BB00569FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LightweightCodeEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = XTP2AXHN5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremypharell.LightweightCodeEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3F40ABB2D65B1BB00569FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LightweightCodeEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = XTP2AXHN5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremypharell.LightweightCodeEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3F40ABD2D65B1BB00569FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTP2AXHN5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremypharell.LightweightCodeEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightweightCodeEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightweightCodeEditor";
+			};
+			name = Debug;
+		};
+		C3F40ABE2D65B1BB00569FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTP2AXHN5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremypharell.LightweightCodeEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightweightCodeEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightweightCodeEditor";
+			};
+			name = Release;
+		};
+		C3F40AC02D65B1BB00569FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTP2AXHN5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremypharell.LightweightCodeEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightweightCodeEditor;
+			};
+			name = Debug;
+		};
+		C3F40AC12D65B1BB00569FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTP2AXHN5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremypharell.LightweightCodeEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightweightCodeEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3F40A902D65B1B900569FAF /* Build configuration list for PBXProject "LightweightCodeEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F40AB72D65B1BB00569FAF /* Debug */,
+				C3F40AB82D65B1BB00569FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F40AB92D65B1BB00569FAF /* Build configuration list for PBXNativeTarget "LightweightCodeEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F40ABA2D65B1BB00569FAF /* Debug */,
+				C3F40ABB2D65B1BB00569FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F40ABC2D65B1BB00569FAF /* Build configuration list for PBXNativeTarget "LightweightCodeEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F40ABD2D65B1BB00569FAF /* Debug */,
+				C3F40ABE2D65B1BB00569FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F40ABF2D65B1BB00569FAF /* Build configuration list for PBXNativeTarget "LightweightCodeEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F40AC02D65B1BB00569FAF /* Debug */,
+				C3F40AC12D65B1BB00569FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3F40A8D2D65B1B900569FAF /* Project object */;
+}
