@@ -1,0 +1,1 @@
+this is my take on a lightweight code editor that you can paste or type code in it is very bare bones no synta highlighting it just wokrs and allows you to past and save the text in whatver format form python to word 
